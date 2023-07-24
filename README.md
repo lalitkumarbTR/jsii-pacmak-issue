@@ -16,4 +16,4 @@ Inside, "packages/mycdk-lib/dist/js" you will see the artifact. Go to that dir a
 `cd packages/mycdk-lib/dist/js`
 `tar -xvf mycdk@0.0.1.jsii.tgz`
 
-It will extract the artifact into "package" folder. Inisde it, go to "package/node_modules/@aws-sdk/util-utf8-browser/". You will see the "dist-*" folders missing. 
+It will extract the artifact into "package" folder. Inside it, go to "package/node_modules/@aws-sdk/util-utf8-browser/". You will see the "dist-*" folders missing. 
