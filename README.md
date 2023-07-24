@@ -1,4 +1,4 @@
-To reproduce the jsi-pacmak issue described here https://github.com/aws/jsii/issues/4178, follow below steps:
+To reproduce the jsii-pacmak issue described here https://github.com/aws/jsii/issues/4178, follow below steps:
 
 1. git clone https://github.com/lalitkumarbTR/jsii-pacmak-issue.git
 2. cd jsii-pacmak-issue
