@@ -1,0 +1,39 @@
+{
+  "name": "@mycdk/root",
+  "version": "0.0.0",
+  "private": true,
+  "workspaces": 
+  {
+    "packages": ["packages/*"],
+    "nohoist": [
+      "**/@aws-sdk/client-codestar-connections",
+      "**/@aws-sdk/client-codestar-connections/**",
+      "**/@aws-sdk/client-sts",
+      "**/@aws-sdk/client-sts/**"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/"
+  },
+  "author": "Lalit",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/"
+  },
+  "homepage": "https://github.com/",
+  "scripts": {
+    "build": "npx lerna bootstrap && npx lerna run build --ignore=mycdk --verbose",
+    "copy:modules": "./get-modules",
+    "build:mycdk": "npx lerna run build --scope=mycdk --verbose",
+    "pack:mycdk": "rm -rf packages/mycdk-lib/dist && npx lerna run pack:jsii --scope=mycdk --verbose"
+  },
+  "devDependencies": {
+    "lerna": "^6.5.1",
+    "ts-node": "10.9.1"
+  },
+  "resolutions": {
+    "@types/babel__traverse": "7.0.6"
+  }
+}
+

@@ -1,0 +1,16 @@
+#!/usr/bin/env ts-node
+const fs = require('fs');
+const fse = require('fs-extra')
+
+const PACKAGES_FOLDER = './packages';
+const MAIN_PACKAGE = "mycdk-lib";
+
+files = fs.readdirSync(PACKAGES_FOLDER)
+for(var dir of files){
+    if (dir != MAIN_PACKAGE){
+        const src = `${PACKAGES_FOLDER}/${dir}/lib`;
+        const dest = `${PACKAGES_FOLDER}/${MAIN_PACKAGE}/${dir}/lib`;
+        fse.copySync(src, dest)
+        console.log(`Copied ${src} to ${dest}`)
+    }
+}

@@ -1,0 +1,71 @@
+{
+  "name": "@mycdk/proj1",
+  "version": "0.0.1",
+  "description": "CDK Constructs for my project",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/"
+  },
+  "author": "Lalit",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/"
+  },
+  "homepage": "https://github.com/",
+  "jsii": {
+    "outdir": "dist",
+    "targets": {
+      "python": {
+        "distName": "s3-lambda",
+        "module": "s3_lambda"
+      },
+      "java": {
+        "package": "com.s3.lambda",
+        "maven": {
+          "groupId": "com.s3.lambda",
+          "artifactId": "s3_lambda"
+        }
+      },
+      "js": {
+        "npm": "s3-lambda"
+      }
+    }
+  },
+  "scripts": {
+    "build": "jsii",
+    "lint": "eslint -c ../eslintrc.yml --ext=.js,.ts . && tslint --project .",
+    "lint-fix": "eslint -c ../eslintrc.yml --ext=.js,.ts --fix .",
+    "test": "jest --coverage",
+    "clean": "tsc -b --clean",
+    "watch": "tsc -b -w",
+    "integ": "cdk-integ",
+    "integ-no-clean": "cdk-integ --no-clean",
+    "integ-assert": "cdk-integ-assert",
+    "jsii": "jsii",
+    "jsii-pacmak": "jsii-pacmak",
+    "build+lint+test": "npm run jsii && npm run lint && npm test && npm run integ-assert",
+    "snapshot-update": "npm run jsii && npm test -- -u && npm run integ-assert"
+  },
+  "devDependencies": {
+    "aws-cdk": "^2.62.1",
+    "aws-cdk-lib": "^2.62.1",
+    "constructs": "^10.1.232",
+    "jsii": "^1.67.0",
+    "jsii-pacmak": "^1.67.0",
+    "typescript": "^4.8.3"
+  },
+  "peerDependencies": {
+    "aws-cdk-lib": "^2.62.1",
+    "constructs": "^10.1.232"
+  },
+  "keywords": [
+    "aws",
+    "cdk",
+    "awscdk",
+    "AWS Solutions Constructs",
+    "Amazon S3",
+    "AWS Lambda"
+  ]
+}
