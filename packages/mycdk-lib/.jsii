@@ -6,9 +6,10 @@
     ]
   },
   "bundled": {
-    "@aws-sdk/client-codestar-connections": "^3.5.0",
-    "@aws-sdk/client-ec2": "^3.5.0",
-    "@aws-sdk/client-sts": "^3.5.0"
+    "@aws-sdk/client-codestar-connections": "3.370.0",
+    "@aws-sdk/client-ec2": "3.376.0",
+    "@aws-sdk/client-sts": "3.370.0",
+    "@aws-sdk/util-utf8-browser": "3.259.0"
   },
   "dependencies": {
     "aws-cdk-lib": "^2.62.1",
@@ -3780,5 +3781,5 @@
     }
   },
   "version": "0.0.1",
-  "fingerprint": "iuUqEQ/JvwcdJcPqi3ftoHYR3ZI5YkJka9VyEo9AgAA="
+  "fingerprint": "1mRdYssHhLuzOad+Vw2uziUU3s4DGzuR5xjwKtCISoo="
 }

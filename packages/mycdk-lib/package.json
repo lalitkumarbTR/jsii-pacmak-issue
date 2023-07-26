@@ -62,9 +62,10 @@
       "typescript": "^4.8.3"
     },
     "dependencies": {
-      "@aws-sdk/client-codestar-connections": "^3.5.0",
-      "@aws-sdk/client-ec2": "^3.5.0",
-      "@aws-sdk/client-sts": "^3.5.0"
+      "@aws-sdk/client-codestar-connections": "3.370.0",
+      "@aws-sdk/client-ec2": "3.376.0",
+      "@aws-sdk/client-sts": "3.370.0",
+      "@aws-sdk/util-utf8-browser": "3.259.0"
     },
     "peerDependencies": {
       "aws-cdk-lib": "^2.62.1",
@@ -73,7 +74,8 @@
     "bundledDependencies": [
       "@aws-sdk/client-ec2",
       "@aws-sdk/client-codestar-connections",
-      "@aws-sdk/client-sts"
+      "@aws-sdk/client-sts",
+      "@aws-sdk/util-utf8-browser"
     ],
     "resolutions": {
       "@types/babel__traverse": "7.0.6"

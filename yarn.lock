@@ -72,7 +72,7 @@
     "@aws-sdk/util-utf8-browser" "^3.0.0"
     tslib "^1.11.1"
 
-"@aws-sdk/client-codestar-connections@^3.5.0":
+"@aws-sdk/client-codestar-connections@3.370.0", "@aws-sdk/client-codestar-connections@^3.5.0":
   version "3.370.0"
   resolved "https://registry.npmjs.org/@aws-sdk/client-codestar-connections/-/client-codestar-connections-3.370.0.tgz"
   integrity sha512-DGj4qzuzJEoea2Xng1gRhUT49U+QFDXhySrtgYeJNvOQMblKQaGdhljeU0jlBCDNmVxAsdel36Xg9X7R3ycKnQ==
@@ -113,6 +113,52 @@
     "@smithy/util-retry" "^1.0.3"
     "@smithy/util-utf8" "^1.0.1"
     tslib "^2.5.0"
+
+"@aws-sdk/client-ec2@3.376.0":
+  version "3.376.0"
+  resolved "https://registry.yarnpkg.com/@aws-sdk/client-ec2/-/client-ec2-3.376.0.tgz#f663808194f169d1588ca50734588e120a8fa143"
+  integrity sha512-R+2AIdkh5CVWx6nq6WV1qjBH3/3XbFDsAvrQ2fuzMHJyAUEzt5dZqVJGCCSZaSL+0p3DqX49jSFDvHJoDbLWNw==
+  dependencies:
+    "@aws-crypto/sha256-browser" "3.0.0"
+    "@aws-crypto/sha256-js" "3.0.0"
+    "@aws-sdk/client-sts" "3.370.0"
+    "@aws-sdk/credential-provider-node" "3.370.0"
+    "@aws-sdk/middleware-host-header" "3.370.0"
+    "@aws-sdk/middleware-logger" "3.370.0"
+    "@aws-sdk/middleware-recursion-detection" "3.370.0"
+    "@aws-sdk/middleware-sdk-ec2" "3.370.0"
+    "@aws-sdk/middleware-signing" "3.370.0"
+    "@aws-sdk/middleware-user-agent" "3.370.0"
+    "@aws-sdk/types" "3.370.0"
+    "@aws-sdk/util-endpoints" "3.370.0"
+    "@aws-sdk/util-user-agent-browser" "3.370.0"
+    "@aws-sdk/util-user-agent-node" "3.370.0"
+    "@smithy/config-resolver" "^1.0.1"
+    "@smithy/fetch-http-handler" "^1.0.1"
+    "@smithy/hash-node" "^1.0.1"
+    "@smithy/invalid-dependency" "^1.0.1"
+    "@smithy/middleware-content-length" "^1.0.1"
+    "@smithy/middleware-endpoint" "^1.0.2"
+    "@smithy/middleware-retry" "^1.0.3"
+    "@smithy/middleware-serde" "^1.0.1"
+    "@smithy/middleware-stack" "^1.0.1"
+    "@smithy/node-config-provider" "^1.0.1"
+    "@smithy/node-http-handler" "^1.0.2"
+    "@smithy/protocol-http" "^1.1.0"
+    "@smithy/smithy-client" "^1.0.3"
+    "@smithy/types" "^1.1.0"
+    "@smithy/url-parser" "^1.0.1"
+    "@smithy/util-base64" "^1.0.1"
+    "@smithy/util-body-length-browser" "^1.0.1"
+    "@smithy/util-body-length-node" "^1.0.1"
+    "@smithy/util-defaults-mode-browser" "^1.0.1"
+    "@smithy/util-defaults-mode-node" "^1.0.1"
+    "@smithy/util-retry" "^1.0.3"
+    "@smithy/util-utf8" "^1.0.1"
+    "@smithy/util-waiter" "^1.0.1"
+    fast-xml-parser "4.2.5"
+    tslib "^2.5.0"
+    uuid "^8.3.2"
 
 "@aws-sdk/client-ec2@^3.5.0":
   version "3.373.0"
@@ -500,7 +546,7 @@
     "@smithy/types" "^1.1.0"
     tslib "^2.5.0"
 
-"@aws-sdk/util-utf8-browser@^3.0.0":
+"@aws-sdk/util-utf8-browser@3.259.0", "@aws-sdk/util-utf8-browser@^3.0.0":
   version "3.259.0"
   resolved "https://registry.npmjs.org/@aws-sdk/util-utf8-browser/-/util-utf8-browser-3.259.0.tgz"
   integrity sha512-UvFa/vR+e19XookZF8RzFZBrw2EUkQWxiBW0yYQAhvk3C+QVGl0H3ouca8LDBlBfQKXwmW3huo/59H8rwb1wJw==

@@ -1,5 +1,7 @@
 To reproduce the jsii-pacmak issue described here https://github.com/aws/jsii/issues/4178, follow below steps:
 
+Install yarn globally: `npm install -g yarn`
+
 1. git clone https://github.com/lalitkumarbTR/jsii-pacmak-issue.git
 2. cd jsii-pacmak-issue
 3. yarn install

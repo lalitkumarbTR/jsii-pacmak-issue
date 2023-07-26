@@ -66,6 +66,7 @@
     "@aws-sdk/client-codestar-connections": "^3.5.0",
     "@aws-sdk/client-ec2": "^3.5.0",
     "@aws-sdk/client-sts": "^3.5.0",
+    "@aws-sdk/util-utf8-browser": "3.259.0",
     "aws-cdk-lib": "^2.62.1",
     "constructs": "^10.1.232"
   },
@@ -76,6 +77,7 @@
   "bundledDependencies": [
     "@aws-sdk/client-ec2",
     "@aws-sdk/client-codestar-connections",
-    "@aws-sdk/client-sts"
+    "@aws-sdk/client-sts",
+    "@aws-sdk/util-utf8-browser"
   ]
 }

@@ -1,0 +1,12 @@
+aws-*
+cumulus_cdk
+tr-aws-cdk_core
+github-release-pipeline
+dist/
+.jsii
+tsconfig.json
+tsconfig.tsbuildinfo
+node_modules
+*.js
+!jest.config.js
+*.d.ts
